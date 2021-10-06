@@ -15,10 +15,9 @@ public class celsiustofarenheit
 		System.out.println("\n\n\nEnter C value to Covert to F:");
 		else if(ch==2)
 		System.out.println("\n\n\nEnter F value to Covert to C:");
-
-		
+		else
+		System.out.println("Invalid Choice...");
 		int temp_value=scan.nextInt();
-		
 		int ans;
 		switch(ch)
 		{
@@ -30,7 +29,7 @@ public class celsiustofarenheit
 		break;
 		default:
 		System.out.println("Invalid Choice...");
-		
+		break;
 		}
 			
 	}
