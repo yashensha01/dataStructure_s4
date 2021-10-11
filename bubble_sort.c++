@@ -13,7 +13,7 @@ int main()
     }
     
     cout<<"input list..\n";
-    for ( i = 0; i < (lim-1); i++)
+    for ( i = 0; i < (lim); i++)
     {
         cout<<arr[i]<<"\t";
     }
